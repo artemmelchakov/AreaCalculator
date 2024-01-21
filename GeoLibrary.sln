@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCalculator", "AreaCalculator\AreaCalculator.csproj", "{29131D9D-C4B9-4D40-90C6-AC6CFC2CB548}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCalculators", "AreaCalculators\AreaCalculators.csproj", "{29131D9D-C4B9-4D40-90C6-AC6CFC2CB548}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCalculator.Tests", "AreaCalculator.Tests\AreaCalculator.Tests.csproj", "{14771EE0-BFF1-4997-BE98-0EF5683A38C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{14771EE0-BFF1-4997-BE98-0EF5683A38C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures", "Figures\Figures.csproj", "{1473AE0A-61DE-4F8D-8995-61D48F63C02E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Figures", "Figures\Figures.csproj", "{1473AE0A-61DE-4F8D-8995-61D48F63C02E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

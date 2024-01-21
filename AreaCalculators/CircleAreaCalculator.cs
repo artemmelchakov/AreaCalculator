@@ -1,6 +1,6 @@
 ﻿using Figures;
 
-namespace AreaCalculator
+namespace AreaCalculators
 {
     /// <summary>
     /// Класс, содержащий методы, занимающиеся вычислением площади круга.

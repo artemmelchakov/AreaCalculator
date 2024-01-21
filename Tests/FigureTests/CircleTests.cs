@@ -1,6 +1,6 @@
 ﻿using Figures;
 
-namespace AreaCalculator.Tests.FigureTests
+namespace Tests.FigureTests
 {
     public class CircleTests
     {

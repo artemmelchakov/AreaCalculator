@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AreaCalculator.Exceptions
+namespace AreaCalculators.Exceptions
 {
     /// <summary>
     /// Исключение с дополнительной информацией в виде результатов валидации.

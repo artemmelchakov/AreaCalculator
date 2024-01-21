@@ -1,6 +1,7 @@
-﻿using Figures;
+﻿using AreaCalculators;
+using Figures;
 
-namespace AreaCalculator.Tests.AreaCalculatorTests
+namespace Tests.AreaCalculatorTests
 {
     public class TriangleAreaCalculatorTests
     {

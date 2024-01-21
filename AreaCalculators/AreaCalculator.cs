@@ -1,8 +1,8 @@
-﻿using AreaCalculator.Exceptions;
+﻿using AreaCalculators.Exceptions;
 using Figures;
 using System.ComponentModel.DataAnnotations;
 
-namespace AreaCalculator
+namespace AreaCalculators
 {
     /// <summary>
     /// Абстрактный класс, от которого наследуются классы, занимающиеся вычислением площади фигуры.
