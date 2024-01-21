@@ -1,25 +1,29 @@
-﻿namespace AreaCalculator
+﻿using Figures;
+
+namespace AreaCalculator
 {
     /// <summary>
     /// Класс, содержащий методы, занимающиеся вычислением площади круга.
     /// </summary>
-    public class CircleAreaCalculator : IAreaCalculator
+    public class CircleAreaCalculator : AreaCalculator<Circle>
     {
-        /// <summary>
-        /// Радиус круга. 
-        /// </summary>
-        private double _radius = 0.0;
-
         /// <summary>
         /// Конструктор вычислителя площади круга.
         /// </summary>
-        /// <param name="radius"> Радиус круга. </param>
-        public CircleAreaCalculator(double radius) => _radius = radius;
+        /// <param name="circle"> Экземпляр объекта - круга. </param>
+        public CircleAreaCalculator(Circle circle) : base(circle)
+        {
+        }
 
         /// <summary>
-        /// <inheritdoc cref="IAreaCalculator.Calculate"/>
-        /// Вычисление площади круга производится по формуле Math.PI * r * r (r - радиус, Math.PI - число Пи).
+        /// Вычисление площади круга. Производится по формуле Math.PI * r * r (r - радиус, Math.PI - число Пи).
         /// </summary>
-        public double Calculate() => Math.PI * _radius * _radius;
+        public override double Calculate()
+        {
+            ValidateFigure();
+
+            var r = Figure.Radius;
+            return Math.PI * r * r;
+        }
     }
 }
